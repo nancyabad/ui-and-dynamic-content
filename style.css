@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.widget {
+  max-width: 45rem;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(159, 159, 159, 0.1);
+}
+
+.masthead {
+  text-align: center;
+}
+
+.masthead img {
+  width: 20rem;
+}
+
+.masthead h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 3rem;
+  color: #403e48;
+  line-height: 1.2;
+}
+
+.tagline {
+  color: #403e48;
+  line-height: 1.2;
+}
+
+.main-content {
+  margin-top: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input[type="text"] {
+  margin: 0 auto;
+  display: block;
+  width: 85%;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  margin: 1rem auto;
+  display: block;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  background-color: #622db6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #403e48;
+}
+
+#itemList {
+  padding-left: 2.5rem;
+}
+
+#errorMessage {
+  color: #7c58ee;
+  padding-left: 2.5rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer a {
+  margin-right: 1rem;
+  color: #622db6;
+  font-size: 1.5rem;
+}
+
+.footer a:last-child {
+  margin-right: 0;
+}
