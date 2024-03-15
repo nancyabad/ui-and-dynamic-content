@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI and Dynamic Content</title>
+    <!---------------------- Font Awesome --------------------------------->
+    <script
+      src="https://kit.fontawesome.com/54faafd270.js"
+      crossorigin="anonymous"
+    ></script>
+    <!---------------------- Stylesheet --------------------------------->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="widget">
+      <div class="masthead">
+        <img src="img/masthead-image.png" alt="Masthead Image" />
+        <!-- https://www.vecteezy.com/vector-art/8779625-working-from-home-flat-style-illustration-vector-design -->
+        <h1>Let's be productive!</h1>
+        <p class="tagline">One to-do list at a time...</p>
+      </div>
+      <div class="main-content">
+        <input type="text" id="itemInput" placeholder="Enter item" />
+        <button onclick="addItem()">Add to list</button>
+        <ul id="itemList"></ul>
+        <p id="errorMessage"></p>
+      </div>
+
+      <div class="footer">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-x"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
